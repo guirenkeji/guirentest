@@ -1,0 +1,16 @@
+{
+  "id": "jenkins",
+  "instances": 1,
+  "mem": 1000,
+  "container": {
+     "type": "DOCKER",
+     "docker": {
+       "image": "20.26.17.137:5000/jenkins:latest",
+       "network": "BRIDGE",
+       "portMappings": [
+        {"containerPort": 8080, "hostPort": 0, "protocol": "tcp"}
+        ]
+        }
+     },
+  "cpus":0.5
+}

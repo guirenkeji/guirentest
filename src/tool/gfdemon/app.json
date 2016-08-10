@@ -1,0 +1,1 @@
+{"mem": 1000, "instances": 1, "container": {"docker": {"portMappings": [{"protocol": "tcp", "containerPort": 8080, "hostPort": 0}], "image": "20.26.17.137:5000/tomcattest:1.0.33", "network": "BRIDGE"}, "type": "DOCKER"}, "id": "test-1", "cpus": 0.5}

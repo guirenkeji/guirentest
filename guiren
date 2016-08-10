@@ -1,0 +1,5 @@
+##############src.tool################
+chronos.py：chronos 任务添加、删除功能。
+deldir.py: 删除.svn文件。
+up.py 上传文件
+download.py 下载文件
