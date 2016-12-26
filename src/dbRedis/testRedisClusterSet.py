@@ -4,11 +4,11 @@ import redis
 from rediscluster import StrictRedisCluster
 
 def main():
-    redishostlist = ['20.26.17.136','20.26.20.21']
+    redishostlist = ['192.168.23.133']
     nodeslist = []
     for serverip in redishostlist:
 
-         nodes=[{"host": serverip,"port": i} for i in xrange(7000, 7002)]
+         nodes=[{"host": serverip,"port": i} for i in xrange(6379, 6380)]
          nodeslist.extend(nodes)
 
     startup_nodes = nodeslist
